@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CThreadInfo">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAgAIAAAAAAAQAAAAAABAAAAAEACAQA=</HashCode>
+      <FileName>C:\FreeeyesWork\2019\ThreadManager\Common\ThreadInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTimerManager">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="CTimerManager::mapThreadList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\FreeeyesWork\2019\ThreadManager\Common\ThreadManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAQEgAAIAAAAAAAAAIAAAAAAAgBAAAAACAAAAAAA=</HashCode>
+      <FileName>C:\FreeeyesWork\2019\ThreadManager\Common\ThreadManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="ThreadId" Collapsed="true">
+    <Position X="10" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\FreeeyesWork\2019\ThreadManager\Common\ThreadInfo.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="threadtime" Collapsed="true">
+    <Position X="8.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\FreeeyesWork\2019\ThreadManager\Common\ThreadInfo.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Thread_State_Change" Collapsed="true">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\FreeeyesWork\2019\ThreadManager\Common\ThreadInfo.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Thread_Run" Collapsed="true">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\FreeeyesWork\2019\ThreadManager\Common\ThreadInfo.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="EMUN_THREAD_STATE">
+    <Position X="2.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAACAAAAQAAAAABAAAAAAAAAEAAAAAAAAAYAAAA=</HashCode>
+      <FileName>C:\FreeeyesWork\2019\ThreadManager\Common\ThreadInfo.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
