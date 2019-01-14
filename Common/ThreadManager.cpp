@@ -1,4 +1,4 @@
-#include "ThreadManager.h"
+﻿#include "ThreadManager.h"
 
 CTimerManager::CTimerManager()
 {
@@ -25,8 +25,6 @@ int CTimerManager::KillThread(ThreadId threadID)
     return 0;
 }
 
-
-
 int CTimerManager::HangUpThread(ThreadId threadID)
 {
     return 0;
@@ -37,7 +35,7 @@ int CTimerManager::ResumeThread(ThreadId threadID)
     return 0;
 }
 
-void CTimerManager::SetThreadSate(ThreadId threadID, EMUN_THREAD_STATE em_State)
+void CTimerManager::SetThreadState(ThreadId threadID, EMUN_THREAD_STATE em_State)
 {
 
 }

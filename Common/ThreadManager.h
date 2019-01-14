@@ -1,4 +1,4 @@
-#ifndef _THREADMANAGER_H
+ï»¿#ifndef _THREADMANAGER_H
 #define _THREADMANAGER_H
 
 #include <map>
@@ -14,28 +14,28 @@ public:
 
     void Init(int MaxThreadCount);
 
-    //´´½¨Ïß³Ì¶ÔÏó
+    //åˆ›å»ºçº¿ç¨‹å¯¹è±¡
     int CreateThread(ThreadId threadID, Thread_Run fn_Thread_Run, Thread_State_Change fn_Thread_State_Change);
 
-    //ÖÕÖ¹Ïß³Ì
+    //ç»ˆæ­¢çº¿ç¨‹
     int KillThread(ThreadId threadID);
 
-    //¹ÒÆğÏß³Ì
+    //æŒ‚èµ·çº¿ç¨‹
     int HangUpThread(ThreadId threadID);
 
-    //»½ĞÑÏß³Ì
+    //å”¤é†’çº¿ç¨‹
     int ResumeThread(ThreadId threadID);
 
-    //ÉèÖÃµ±Ç°Ïß³Ì×´Ì¬
-    void SetThreadSate(ThreadId threadID, EMUN_THREAD_STATE em_State);
+    //è®¾ç½®å½“å‰çº¿ç¨‹çŠ¶æ€
+    void SetThreadState(ThreadId threadID, EMUN_THREAD_STATE em_State);
 
-    //µÃµ½Ïß³Ì×´Ì¬
+    //å¾—åˆ°çº¿ç¨‹çŠ¶æ€
     EMUN_THREAD_STATE GetThreadSate(ThreadId threadID);
 
 private:
     typedef map<ThreadId, CThreadInfo*> mapThreadList;
-    int            m_MaxThreadCount;                  //Ïß³Ì³ØÖĞ×î´óµÄÏß³Ì¸öÊı
-    mapThreadList  m_ThreadList;                      //µ±Ç°Ïß³ÌÁĞ±í
+    int            m_MaxThreadCount;                  //çº¿ç¨‹æ± ä¸­æœ€å¤§çš„çº¿ç¨‹ä¸ªæ•°
+    mapThreadList  m_ThreadList;                      //å½“å‰çº¿ç¨‹åˆ—è¡¨
 };
 
 #endif
